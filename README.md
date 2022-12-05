@@ -36,8 +36,8 @@ This script downloads and processes the classification datasets used in the pape
 ## Running an experiment
 The experiment script `run_self_training_experiment.py` requires 3 arguments:
 - `experiment_name`: an identifier for the experiment
-- `dataset_name`: the name of one of the datasets under the "datasets/" directory
-- `base_model`: the name of an NLI-based zero-shot classifier from the [Hugging Face hub](https://huggingface.co/models?pipeline_tag=zero-shot-classification)
+- `dataset_name`: the name of one of the datasets under the "datasets/" directory. The following datasets are fetched using the download script: `20_newsgroup`, `ag_news`, `dbpedia`, `imdb`, `isear` and `yahoo_answers`. Any dataset can be added, see [below](#running-on-additional-datasets).
+- `base_model`: the name of an NLI-based zero-shot classifier from the [Hugging Face hub](https://huggingface.co/models?pipeline_tag=zero-shot-classification). The paper used the following models: `facebook/bart-large-mnli`, `Narsil/deberta-large-mnli-zero-cls` and `roberta-large-mnli`.
 
 In addition, there are several optional configuration parameters:
 - `num_iterations`: the number of self-training iterations to perform. Defaults to 2 (as used in the paper).
