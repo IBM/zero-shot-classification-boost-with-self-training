@@ -27,8 +27,9 @@ The framework requires Python 3.9
    `git clone https://github.com/IBM/zero-shot-classification-boost-with-self-training.git`
 2. Go to the cloned directory 
   `cd zero-shot-classification-boost-with-self-training`
-3. Install the project dependencies: `pip install -r requirements.txt`
-4. Run the python script `python download_data.py`.
+3. (optional) create a conda environment using `conda create -y --name zero-shot-classification-boost-with-self-training python=3.9` and activate using `conda activate zero-shot-classification-boost-with-self-training`
+4. Install the project dependencies: `pip install -r requirements.txt`. See https://pytorch.org for instructions on installing a GPU compatible pytorch version. For example, if cuda 11.3 is used, the above command would be `pip install -r requirements.txt  --extra-index-url https://download.pytorch.org/whl/cu113`
+5. Run the python script `python download_data.py`.
 This script downloads and processes the classification datasets used in the paper.
 
                          
