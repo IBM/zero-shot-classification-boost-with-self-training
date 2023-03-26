@@ -69,7 +69,7 @@ The repository enables downloading the paper datasets with `python download_data
 
 ## Reference
 Ariel Gera, Alon Halfon, Eyal Shnarch, Yotam Perlitz, Liat Ein-Dor and Noam Slonim (2022). 
-[Zero-Shot Text Classification with Self-Training](https://arxiv.org/abs/2210.17541). EMNLP 2022
+[Zero-Shot Text Classification with Self-Training](https://aclanthology.org/2022.emnlp-main.73). EMNLP 2022
 
 Please cite: 
 ```
@@ -77,9 +77,12 @@ Please cite:
   title={Zero-Shot Text Classification with Self-Training},
   author={Gera, Ariel and Halfon, Alon and Shnarch, Eyal and Perlitz, Yotam and Ein-Dor, Liat and Slonim, Noam},
   booktitle={Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
+  month={dec},
+  year={2022},
+  address={Abu Dhabi, United Arab Emirates},
   publisher={Association for Computational Linguistics},
-  url={https://arxiv.org/abs/2210.17541},
-  year={2022}
+  url={https://aclanthology.org/2022.emnlp-main.73},
+  pages={1107--1119}
 }
 ```
 
